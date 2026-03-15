@@ -18,6 +18,11 @@ export default function Servicos() {
       desc: "Cuidando da sua saúde emocional de forma acolhedora.",
       img: "https://images.pexels.com/photos/5234624/pexels-photo-5234624.jpeg",
     },
+    {
+      title: "Tratamento Infantil e Adolescente",
+      desc: "Atendimento especializado para crianças e adolescentes com foco no desenvolvimento emocional.",
+      img: "https://images.pexels.com/photos/5792907/pexels-photo-5792907.jpeg",
+    },
   ];
 
   return (
@@ -31,7 +36,7 @@ export default function Servicos() {
         Serviços
       </h2>
 
-      <div className="max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {servicos.map((s, i) => {
           const { ref, inView } = useInView({
             triggerOnce: false,

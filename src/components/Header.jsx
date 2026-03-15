@@ -35,7 +35,7 @@ export default function Header() {
           className="text-2xl md:text-3xl font-bold font-lora cursor-pointer"
           onClick={() => handleScroll("hero")}
         >
-         Psique é Bem-Estar
+          Psique & bem estar
         </h1>
 
         {/* Desktop Menu */}

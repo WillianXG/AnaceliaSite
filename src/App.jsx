@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Sobre from './components/Sobre'
 import Servicos from './components/Servicos'
 import Contato from './components/Contato'
+import Local from './components/local'
 import Footer from './components/Footer'
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -23,6 +24,7 @@ function App() {
         <Hero />
         <Sobre />
         <Servicos />
+        <Local />
         <Contato />
       </main>
       <Footer />
