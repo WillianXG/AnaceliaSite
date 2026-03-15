@@ -31,8 +31,8 @@ export default function Hero() {
             transform: inView ? "translateY(0)" : "translateY(20px)",
           }}
         >
-          Cuidando da sua saúde mental com acolhimento e profissionalismo.
-          Terapia individual, de casal e adolescente para seu bem-estar emocional.
+          Cuidando da saúde mental com acolhimento e profissionalismo.
+          Terapia individual, de casal, adolescente e criança para seu bem-estar emocional.
         </p>
         <a
           href="#contato"
